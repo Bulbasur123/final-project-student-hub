@@ -1,0 +1,13 @@
+# Runtime data is created on first run.
+/storage/tasks.php
+
+# Local editor and operating-system files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files.
+*.log
+*.tmp
