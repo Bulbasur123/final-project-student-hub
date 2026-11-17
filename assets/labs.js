@@ -80,11 +80,11 @@
   const fetchJson = async (url, options = {}) => {
     const response = await fetch(url, {
       credentials: "same-origin",
+      ...options,
       headers: {
         Accept: "application/json",
         ...(options.headers || {}),
       },
-      ...options,
     });
 
     const text = await response.text();
